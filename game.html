@@ -31,22 +31,26 @@
             <h2 id="question">Odgovor na pitanje je:</h2>
             <div class="choice-conteiner">
                 <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number = "1">Izbor 1</p>
+                <p class="choice-text" onclick="play()" data-number = "1">Izbor 1</p>
             </div>
             <div class="choice-conteiner">
                 <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number = "2">Izbor 2</p>
+                <p class="choice-text" onclick="play()" data-number = "2">Izbor 2</p>
             </div>
             <div class="choice-conteiner">
                 <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number = "3">Izbor 3</p>
+                <p class="choice-text" onclick="play()" data-number = "3">Izbor 3</p>
             </div>
             <div class="choice-conteiner">
                 <p class="choice-prefix">D</p>
-                <p class="choice-text" data-number = "4">Izbor 4</p>
+                <p class="choice-text" onclick="play()" data-number = "4">Izbor 4</p>
             </div>
         </div>
     </div>
+    
     <script src = "js/game.js"></script>
+   
+    <audio id="audio1" src="audio/correct.mp3"></audio>
+    <audio id="audio2" src="audio/incorrect.mp3"></audio>
 </body>
 </html>

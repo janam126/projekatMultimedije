@@ -30,7 +30,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 2
 
 startGame = () => {
     questionCounter = 0
@@ -74,6 +74,11 @@ choices.forEach(choice => {
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
+            var audio = document.getElementById("audio1");
+            audio1.play();
+        }else{
+            var audio = document.getElementById("audio2");
+            audio2.play();
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
