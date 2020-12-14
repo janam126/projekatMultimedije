@@ -1,14 +1,18 @@
 body {
     color: whitesmoke;
+    background-image: url("../image/pitanja.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .choice-conteiner {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(11, 91, 182);
-    font-size: 3rem;
+    border-radius: 15px;
+    background:  rgb(243, 186, 231);
+    font-size: 4rem;
     min-width: 80rem;
 }
 
@@ -21,12 +25,13 @@ body {
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: whitesmoke;
+    color:  rgb(104, 16, 53);
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
+    color:  rgb(104, 16, 53);
 }
 
 .correct {
@@ -55,7 +60,7 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid green;
+    border: 0.2rem solid rgb(163, 23, 81);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -64,7 +69,7 @@ body {
 
 #progressBarFull {
     height: 100%;
-    background: green;
+    background: rgb(163, 23, 81);
     width: 0%;
 }
 

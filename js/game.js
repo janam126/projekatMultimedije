@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
     {
-        question:'Koliko je 2+2',
+        question:'Koliko je 2+2?',
         choice1:'1',
         choice2:'2',
         choice3:'3',
@@ -20,7 +20,7 @@ let questions = [
         answer: 4
     },
     {
-        question:'Koliko je 3+2',
+        question:'Koliko je 3+2?',
         choice1:'1',
         choice2:'5',
         choice3:'3',
@@ -45,7 +45,7 @@ getNewQuestion = () => {
         return window.location.assign('end.html')
     }
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressText.innerText = `Pitanje ${questionCounter} od ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)

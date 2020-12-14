@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 body {
-    background-color: rgb(29, 26, 26);
+    background-image: url("../image/glavna.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 * {
@@ -13,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 8rem;
     color: whitesmoke;
     margin-bottom: 5rem;
 }
@@ -64,8 +67,8 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color:whitesmoke;
-    background: linear-gradient(90deg, rgb(18,92,255) 0%, rgb(0,102, 255) 100%);
-    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(36, 3, 41) 0%, rgb(112, 32, 124) 100%);
+    border-radius: 15px;
 }
 
 .btn:hover {
@@ -82,7 +85,7 @@ h2 {
 }
 
 #highscore-btn {
-    background: linear-gradient(90deg, rgb(202, 38, 33) 0%, rgb(184, 28, 28) 100%);
+    background: linear-gradient(90deg, rgb(112, 32, 124) 0%, rgb(36, 3, 41) 100%);
 }
 
 .fa-crown {
@@ -108,7 +111,7 @@ input {
 }
 
 input::placeholder {
-    color: hotpink;
+    color: rgb(107, 36, 79);
 }
 
 #username {
